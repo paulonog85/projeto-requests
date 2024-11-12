@@ -7,7 +7,7 @@ class ManipulaRepositorios:
         self.username = os.getenv('USERNAME')
         self.api_base_url = 'https://api.github.com'
         self.access_token= os.getenv('GITHUB_TOKEN')
-        self.headers = {'Authorization':"Bearer " + self.access_token,
+        self.headers = {'Authorization': f'Bearer {self.access_token}',
                         'X-GitHub-Api-Version': '2022-11-28'}
 
     def cria_repo(self, nome_repo):
@@ -39,7 +39,7 @@ class ManipulaRepositorios:
         print(f'status_code upload do arquivo: {response.status_code}')
 
 # instanciando um objeto
-novo_repo = ManipulaRepositorios('millenagena')
+novo_repo = ManipulaRepositorios(os.getenv('USERNAME'))
 
 # Criando o repositório
 nome_repo = 'linguagens-repositorios-empresas'
