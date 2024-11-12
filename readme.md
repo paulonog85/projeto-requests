@@ -1,24 +1,22 @@
-# Pipeline de Dados GitHub API
+GitHub API Data Pipeline
+This project is a study based on Alura's course "Python and APIs: learning the Requests library", where we collect data from repositories of major technology companies (Amazon, Netflix, and Spotify) using the GitHub API and Python's Requests library.
 
-Este projeto é um estudo baseado no curso da Alura "Python e APIs: conhecendo a biblioteca Requests", no qual realizamos a coleta de dados de repositórios de grandes empresas de tecnologia (Amazon, Netflix e Spotify) utilizando a API do GitHub e a biblioteca Requests do Python.
+🛠️ Technologies Used
 
-## 🛠️ Tecnologias Utilizadas
+Python 3.x
+Requests Library
+Pandas
+python-dotenv
+GitHub API
 
-- Python 3.x
-- Biblioteca Requests
-- Pandas
-- python-dotenv
-- API do GitHub
+📋 Prerequisites
 
-## 📋 Pré-requisitos
+Python installed
+GitHub access token
+Required Python libraries
 
-- Python instalado
-- Token de acesso do GitHub
-- Bibliotecas Python necessárias
+🚀 Installation
 
-## 🚀 Instalação
-
-1. Clone o repositório
-```bash
+Clone the repository
 git clone https://github.com/seu-usuario/nome-do-repo.git
 cd projeto-requests
