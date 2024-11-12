@@ -1,0 +1,5 @@
+# arquivo .gitignore
+.env
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
